@@ -67,7 +67,7 @@ history = model.fit(
 )
 model.save("hand_gesture_cnn.h5")
 
-print("Starting live demo... Press ESC to exit.")
+print("Starting live demo. Press ESC to exit.")
 cap = cv2.VideoCapture(0)
 while True:
     ret, frame = cap.read()
