@@ -6,7 +6,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.utils import to_categorical
 
-DATASET_DIR = r"C:\Users\nwjoy\OneDrive\Documents\SkillCraft\SCT-4\leapGestRecog"
+DATASET_DIR = r"leapGestRecog"
 IMG_SIZE = (64, 64)   # smaller size for speed
 
 X, y, class_names = [], [], []
